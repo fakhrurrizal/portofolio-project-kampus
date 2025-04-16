@@ -2,7 +2,7 @@
 
 ## 📌 Informasi Tugas
 
-- **Mata Kuliah:** Pemrograman Web (CCP220)
+- **Mata Kuliah:** CSF412 Pemrograman Web EU101
 - **Topik:** UI Framework
 - **Dosen Pengampu:** TRI ISMARDIKO WIDYAWAN, S.Kom, M.Kom
 - **Universitas:** Universitas Esa Unggul
