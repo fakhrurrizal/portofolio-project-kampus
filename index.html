@@ -41,12 +41,10 @@
       <div
         class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
       >
-        <a
-          href="index.html"
-          class="logo d-flex align-items-center me-auto me-xl-0"
-        >
-          <h1 class="sitename">Fakhrur Codes</h1>
-        </a>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/logo_porto_1.png" alt="Fakhrur Codes Logo" class="logo-img" />
+      </a>
+      
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="#hero" class="active">Home</a></li>
@@ -67,74 +65,85 @@
                     <i class="bi bi-chevron-down toggle-dropdown"></i
                   ></a>
                   <ul>
-                    <li><a href="#portfolio">Fitness Tracker App</a></li>
-                    <li><a href="#portfolio">E-commerce Mobile</a></li>
-                    <li><a href="#portfolio">Social Media App</a></li>
+                    <li><a href="#portfolio">Nizom POS Kasir</a></li>
                   </ul>
                 </li>
-                <li><a href="#portfolio">API Development</a></li>
-                <li><a href="#portfolio">System Architecture</a></li>
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <div class="header-social-links">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <div id="darkModeToggle" class="dark-mode-toggle">
+          <i class="icon-sun bi bi-sun-fill"></i>
+          <i class="icon-moon bi bi-moon-fill"></i>
         </div>
-      </div>
     </header>
+
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row align-items-center content">
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <h2>Crafting Robust Web and Mobile Solutions</h2>
+              <h2>Hi, I'm Fakhrur</h2>
               <p class="lead">
-                Transforming ideas into efficient fullstack applications using
-                modern technologies
+                A passionate Fullstack Web & Mobile Developer specializing in building scalable and modern applications using the latest technologies.
               </p>
+              
+
               <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
                 <a href="#portfolio" class="btn btn-primary">View My Work</a>
                 <a href="#contact" class="btn btn-outline">Let's Connect</a>
               </div>
-              <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
-                <div class="stat-item">
-                  <span class="stat-number">5+</span>
-                  <span class="stat-label">Years Experience</span>
-                </div>
-                <div class="stat-item">
-                  <span class="stat-number">30+</span>
-                  <span class="stat-label">Projects Completed</span>
-                </div>
-                <div class="stat-item">
-                  <span class="stat-number">20+</span>
-                  <span class="stat-label">Happy Clients</span>
-                </div>
+              <div class="hero-socials" data-aos="fade-up" data-aos-delay="400">
+                <a
+                  href="https://github.com/fakhrurrizal"
+                  target="_blank"
+                  class="social-link me-3"
+                >
+                  <i class="bi bi-github" style="font-size: 1.5rem;"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/m-fakhrur-rizal"
+                  target="_blank"
+                  class="social-link me-3"
+                >
+                  <i class="bi bi-linkedin" style="font-size: 1.5rem;"></i>
+                </a>
+                <a
+                href="https://www.facebook.com/share/1F2wU5ZX9o/"
+                target="_blank"
+                class="social-link me-3"
+              >
+                <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
+              </a>
+              <a
+                href="https://instagram.com/fakhrur_rizal24"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+              </a>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="hero-image">
                 <img
-                  src="assets/img/profile/profile-1.webp"
-                  alt="Portfolio Hero Image"
-                  class="img-fluid"
-                  data-aos="zoom-out"
-                  data-aos-delay="300"
-                />
-                <div class="shape-1"></div>
-                <div class="shape-2"></div>
+                src="assets/img/programmer.gif"
+                alt="Portfolio Hero Image"
+                class="img-fluid"
+                style="width: 680px; height: auto;margin-top: -30px;"
+                data-aos="zoom-out"
+                data-aos-delay="300"
+              />
+              
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- /Hero Section -->
+
       <!-- About Section -->
       <section id="about" class="about section light-background">
         <!-- Section Title -->
@@ -225,13 +234,7 @@
                   </div>
                 </div>
                 <div class="signature mt-4">
-                  <div class="signature-image">
-                    <img
-                      src="assets/img/misc/signature-1.webp"
-                      alt=""
-                      class="img-fluid"
-                    />
-                  </div>
+                 
                   <div class="signature-info">
                     <h4>Muhammad Fakhrur Rizal</h4>
                     <p>Fullstack Developer</p>
@@ -246,102 +249,112 @@
       <!-- Skills Section -->
       <section id="skills" class="skills section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row g-4 skills-animation">
-            <div
-              class="col-md-6 col-lg-3"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="skill-box">
-                <h3>Next.js</h3>
-                <p>
-                  Building server-side rendered React applications with
-                  excellent performance
-                </p>
-                <span class="text-end d-block">95%</span>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="95"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+                <p>Expertise in modern web development technologies and frameworks</p>
             </div>
-            <div
-              class="col-md-6 col-lg-3"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="skill-box">
-                <h3>TypeScript</h3>
-                <p>
-                  Developing type-safe applications with enhanced developer
-                  experience
-                </p>
-                <span class="text-end d-block">95%</span>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="95"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+            
+            <div class="row g-4 skills-animation">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-box">
+                        <div class="skill-icon">N</div>
+                        <h3>Next.js</h3>
+                        <p>Building server-side rendered React applications with excellent performance and SEO optimization</p>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div
-              class="col-md-6 col-lg-3"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="skill-box">
-                <h3>Golang</h3>
-                <p>
-                  Creating efficient backend services and APIs with Go
-                  programming language
-                </p>
-                <span class="text-end d-block">90%</span>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
+                    <div class="skill-box">
+                        <div class="skill-icon">TS</div>
+                        <h3>TypeScript</h3>
+                        <p>Developing type-safe applications with enhanced developer experience and better code maintainability</p>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div
-              class="col-md-6 col-lg-3"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="skill-box">
-                <h3>Flutter</h3>
-                <p>
-                  Developing cross-platform mobile applications with beautiful
-                  UIs
-                </p>
-                <span class="text-end d-block">85%</span>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="85"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-box">
+                        <div class="skill-icon">Go</div>
+                        <h3>Golang</h3>
+                        <p>Creating efficient backend services and APIs with Go programming language for high-performance applications</p>
+                    </div>
                 </div>
-              </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="250">
+                    <div class="skill-box">
+                        <div class="skill-icon">Fl</div>
+                        <h3>Flutter</h3>
+                        <p>Developing cross-platform mobile applications with beautiful UIs and native performance</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-box">
+                        <div class="skill-icon">L</div>
+                        <h3>Laravel</h3>
+                        <p>Building robust PHP web applications with elegant syntax and powerful features</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="350">
+                    <div class="skill-box">
+                        <div class="skill-icon">PG</div>
+                        <h3>PostgreSQL</h3>
+                        <p>Managing relational databases with advanced SQL queries and data optimization</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-box">
+                        <div class="skill-icon">TW</div>
+                        <h3>Tailwind CSS</h3>
+                        <p>Rapid UI development with utility-first CSS framework for modern responsive designs</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="450">
+                    <div class="skill-box">
+                        <div class="skill-icon">R</div>
+                        <h3>React</h3>
+                        <p>Creating dynamic user interfaces with component-based architecture and state management</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-box">
+                        <div class="skill-icon">N</div>
+                        <h3>Node.js</h3>
+                        <p>Server-side JavaScript development for scalable backend applications and APIs</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="550">
+                    <div class="skill-box">
+                        <div class="skill-icon">M</div>
+                        <h3>MongoDB</h3>
+                        <p>NoSQL database management for flexible document-based data storage solutions</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-box">
+                        <div class="skill-icon">D</div>
+                        <h3>Docker</h3>
+                        <p>Containerization and deployment automation for consistent development environments</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="650">
+                    <div class="skill-box">
+                        <div class="skill-icon">G</div>
+                        <h3>Git</h3>
+                        <p>Version control and collaborative development with efficient branching and merging strategies</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
+
+
       <!-- /Skills Section -->
       <!-- Resume Section -->
       <section id="resume" class="resume section">
@@ -378,9 +391,11 @@
                       data-aos-delay="200"
                     >
                       <div class="timeline-left">
+                       <a href="https://nizom.id/" target="_blank" rel="noopener noreferrer">
                         <h4 class="company">
                           PT. Nizom Berkah Informasi - West Jakarta
                         </h4>
+                       </a>
                         <span class="period">March, 2024 - Current</span>
                       </div>
                       <div class="timeline-dot"></div>
@@ -414,9 +429,12 @@
                       data-aos-delay="300"
                     >
                       <div class="timeline-left">
-                        <h4 class="company">
-                          PT. Metra Digital Media - South Jakarta
-                        </h4>
+                        <a href="https://mdmedia.co.id/" target="_blank" rel="noopener noreferrer">
+                          <h4 class="company">
+                            PT. Metra Digital Media - South Jakarta
+                          </h4>
+                        </a>
+                      
                         <span class="period">March,2023 - March, 2024</span>
                       </div>
                       <div class="timeline-dot"></div>
@@ -436,9 +454,11 @@
                       data-aos-delay="400"
                     >
                       <div class="timeline-left">
-                        <h4 class="company">
-                          CAN Creative PT. Cipta Adi Nugraha - Semarang
-                        </h4>
+                        <a href="https://can.co.id" target="_blank" rel="noopener noreferrer">
+                          <h4 class="company">
+                            CAN Creative PT. Cipta Adi Nugraha - Semarang
+                          </h4>
+                        </a>
                         <span class="period">Feb 2020 - April 2020</span>
                       </div>
                       <div class="timeline-dot"></div>
@@ -543,6 +563,39 @@
                         </ul>
                       </div>
                     </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                      <div class="timeline-left">
+                          <h4 class="company">SMK Negeri 4 Kendal</h4>
+                          <span class="period">2018 - 2021</span>
+                      </div>
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-right">
+                          <h3 class="position">Vocational High School - Software Engineering</h3>
+                          <p class="description">
+                              Completed vocational education specializing in Software Engineering with comprehensive foundation in programming and database management. Developed strong technical skills through practical projects and industry-standard curriculum.
+                          </p>
+                          <ul>
+                              <li>
+                                  Mastered fundamental web development technologies including HTML5, CSS3, JavaScript, and responsive design principles
+                              </li>
+                              <li>
+                                  Gained proficiency in mobile application development using basic Android development frameworks
+                              </li>
+                              <li>
+                                  Learned Object-Oriented Programming (OOP) concepts and implementation using Java programming language
+                              </li>
+                              <li>
+                                  Developed database design and management skills using MySQL, including query optimization and relational database concepts
+                              </li>
+                              <li>
+                                  Participated in school programming competitions and collaborative software development projects
+                              </li>
+                              <li>
+                                  Built foundational understanding of software development lifecycle and version control systems
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -550,10 +603,8 @@
           </div>
         </div>
       </section>
-      <!-- /Resume Section -->
-      <!-- Portfolio Section -->
+
       <section id="portfolio" class="portfolio section">
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Portfolio</h2>
           <div class="title-shape">
@@ -568,7 +619,6 @@
           </div>
           <p>Showcasing my best projects in web and mobile development</p>
         </div>
-        <!-- End Section Title -->
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div
             class="isotope-layout"
@@ -585,7 +635,6 @@
                 <li data-filter="*" class="filter-active">All Projects</li>
                 <li data-filter=".filter-web">Web Applications</li>
                 <li data-filter=".filter-mobile">Mobile Apps</li>
-                <li data-filter=".filter-api">API Development</li>
               </ul>
             </div>
             <div
@@ -599,7 +648,7 @@
                 <div class="portfolio-card">
                   <div class="portfolio-image">
                     <img
-                      src="assets/img/portfolio/portfolio-1.webp"
+                      src="assets/img/portfolio/pos kasir 1.png"
                       class="img-fluid"
                       alt=""
                       loading="lazy"
@@ -607,12 +656,12 @@
                     <div class="portfolio-overlay">
                       <div class="portfolio-actions">
                         <a
-                          href="assets/img/portfolio/portfolio-1.webp"
+                          href="assets/img/portfolio/pos kasir 1.png"
                           class="glightbox preview-link"
                           data-gallery="portfolio-gallery-web"
                           ><i class="bi bi-eye"></i
                         ></a>
-                        <a href="portfolio-details.html" class="details-link"
+                        <a href="https://pos.nizom.id"  target="_blank" class="details-link"
                           ><i class="bi bi-arrow-right"></i
                         ></a>
                       </div>
@@ -620,77 +669,11 @@
                   </div>
                   <div class="portfolio-content">
                     <span class="category">Web Application</span>
-                    <h3>E-commerce Platform</h3>
+                    <h3>Pos Nizom Kasir</h3>
                     <p>
-                      Built with Next.js, TypeScript, and integrated with
-                      Postgres database
+                      Built with Next.js, TypeScript, integrated with Postgres database, and powered by a Golang backend
                     </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-mobile"
-              >
-                <div class="portfolio-card">
-                  <div class="portfolio-image">
-                    <img
-                      src="assets/img/portfolio/portfolio-10.webp"
-                      class="img-fluid"
-                      alt=""
-                      loading="lazy"
-                    />
-                    <div class="portfolio-overlay">
-                      <div class="portfolio-actions">
-                        <a
-                          href="assets/img/portfolio/portfolio-10.webp"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery-mobile"
-                          ><i class="bi bi-eye"></i
-                        ></a>
-                        <a href="portfolio-details.html" class="details-link"
-                          ><i class="bi bi-arrow-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="portfolio-content">
-                    <span class="category">Mobile App</span>
-                    <h3>Fitness Tracker</h3>
-                    <p>Cross-platform mobile application built with Flutter</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-api"
-              >
-                <div class="portfolio-card">
-                  <div class="portfolio-image">
-                    <img
-                      src="assets/img/portfolio/portfolio-7.webp"
-                      class="img-fluid"
-                      alt=""
-                      loading="lazy"
-                    />
-                    <div class="portfolio-overlay">
-                      <div class="portfolio-actions">
-                        <a
-                          href="assets/img/portfolio/portfolio-7.webp"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery-api"
-                          ><i class="bi bi-eye"></i
-                        ></a>
-                        <a href="portfolio-details.html" class="details-link"
-                          ><i class="bi bi-arrow-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="portfolio-content">
-                    <span class="category">API Development</span>
-                    <h3>Payment Gateway API</h3>
-                    <p>Secure payment processing API built with Golang</p>
+                    
                   </div>
                 </div>
               </div>
@@ -701,7 +684,7 @@
                 <div class="portfolio-card">
                   <div class="portfolio-image">
                     <img
-                      src="assets/img/portfolio/portfolio-2.webp"
+                      src="assets/img/portfolio/porto-2.png"
                       class="img-fluid"
                       alt=""
                       loading="lazy"
@@ -709,12 +692,49 @@
                     <div class="portfolio-overlay">
                       <div class="portfolio-actions">
                         <a
-                          href="assets/img/portfolio/portfolio-2.webp"
+                          href="assets/img/portfolio/porto-2.png"
                           class="glightbox preview-link"
-                          data-gallery="portfolio-gallery-web"
+                          data-gallery="portfolio-gallery-mobile"
                           ><i class="bi bi-eye"></i
                         ></a>
-                        <a href="portfolio-details.html" class="details-link"
+                        <a href="https://marketingplatform.digipop.ai"  target="_blank" class="details-link"
+                        ><i class="bi bi-arrow-right"></i
+                      ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Web Application</span>
+                    <h3>Digital Marketing Platform</h3>
+                    <p>
+                      Multi-platform application for managing and analyzing digital marketing campaigns. 
+                      Features real-time data visualization and campaign performance tracking.
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <div
+                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web"
+              >
+                <div class="portfolio-card">
+                  <div class="portfolio-image">
+                    <img
+                      src="assets/img/portfolio/porto-3.png"
+                      class="img-fluid"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <a
+                          href="assets/img/portfolio/porto-3.png"
+                          class="glightbox preview-link"
+                          data-gallery="portfolio-gallery-api"
+                          ><i class="bi bi-eye"></i
+                        ></a>
+                        <a href="https://kangfakhrurresto.vercel.app"  target="_blank" class="details-link"
                           ><i class="bi bi-arrow-right"></i
                         ></a>
                       </div>
@@ -722,21 +742,22 @@
                   </div>
                   <div class="portfolio-content">
                     <span class="category">Web Application</span>
-                    <h3>Project Management Tool</h3>
+                    <h3>Kang Fakhrur Resto</h3>
                     <p>
-                      Collaboration platform built with Next.js and Tailwind
+                      A modern and responsive food ordering website for Kang Fakhrur Resto. <br />
+                      Offers intuitive menu browsing, ordering features, and promotional highlights.
                     </p>
                   </div>
                 </div>
               </div>
               <!-- End Portfolio Item -->
               <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-mobile"
+                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web"
               >
                 <div class="portfolio-card">
                   <div class="portfolio-image">
                     <img
-                      src="assets/img/portfolio/portfolio-11.webp"
+                      src="assets/img/portfolio/porto-4.png"
                       class="img-fluid"
                       alt=""
                       loading="lazy"
@@ -744,154 +765,105 @@
                     <div class="portfolio-overlay">
                       <div class="portfolio-actions">
                         <a
-                          href="assets/img/portfolio/portfolio-11.webp"
+                          href="assets/img/portfolio/porto-4.png"
                           class="glightbox preview-link"
-                          data-gallery="portfolio-gallery-mobile"
+                          data-gallery="portfolio-gallery-web"
                           ><i class="bi bi-eye"></i
                         ></a>
-                        <a href="portfolio-details.html" class="details-link"
+                        <a href="https://list-book-uas.vercel.app"  target="_blank" class="details-link"
                           ><i class="bi bi-arrow-right"></i
                         ></a>
                       </div>
                     </div>
                   </div>
                   <div class="portfolio-content">
-                    <span class="category">Mobile App</span>
-                    <h3>Social Media App</h3>
-                    <p>Flutter-based social networking application</p>
+                    <span class="category">Web Application</span>
+                    <h3>List Book</h3>
+                    <p>
+                      Welcome page of a digital library application. <br />
+                      Offers a wide range of engaging and informative books easily accessible to all users.
+                    </p>
+                    
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
+             
+              <div
+                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web"
+              >
+                <div class="portfolio-card">
+                  <div class="portfolio-image">
+                    <img
+                      src="assets/img/portfolio/porto-5.jpg"
+                      class="img-fluid"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <a
+                          href="assets/img/portfolio/porto-5.jpg"
+                          class="glightbox preview-link"
+                          data-gallery="portfolio-gallery-mobile"
+                          ><i class="bi bi-eye"></i
+                        ></a>
+                        <a href="https://twittbook.vercel.app"  target="_blank" class="details-link"
+                          ><i class="bi bi-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Web Application</span>
+                    <h3>Tweetbook App</h3>
+                    <p>
+                      Social media dashboard for developers. <br />
+                      Enables users to share updates, explore trends, and connect with fellow tech enthusiasts.
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div
+              class="col-lg-6 col-md-6 portfolio-item isotope-item filter-mobile"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img
+                    src="assets/img/portfolio/porto-6.jpg"
+                    class="img-fluid"
+                    alt=""
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a
+                        href="assets/img/portfolio/porto-6.jpg"
+                        class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-mobile"
+                        ><i class="bi bi-eye"></i
+                      ></a>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Mobile Application</span>
+                  <h3>Nizom POS Kasir App</h3>
+                  <p>
+                    A mobile Point of Sale (POS) application designed for retail businesses and small enterprises.
+                    It provides features such as transaction management, customer tracking, expense recording, and real-time financial reporting.
+                  </p>
+                </div>
+                
+              </div>
+            </div>
             </div>
             <!-- End Portfolio Container -->
           </div>
         </div>
       </section>
-      <!-- /Portfolio Section -->
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Testimonials</h2>
-          <div class="title-shape">
-            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              ></path>
-            </svg>
-          </div>
-          <p>What clients say about my work</p>
-        </div>
-        <!-- End Section Title -->
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="testimonials-slider swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "slidesPerView": 1,
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "navigation": {
-                  "nextEl": ".swiper-button-next",
-                  "prevEl": ".swiper-button-prev"
-                }
-              }
-            </script>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <div class="row">
-                    <div class="col-lg-8">
-                      <h2>Excellent Technical Skills</h2>
-                      <p>
-                        Muhammad delivered an exceptional e-commerce platform
-                        that exceeded our expectations. His expertise in Next.js
-                        and Golang was evident throughout the project.
-                      </p>
-                      <p>
-                        The application's performance and scalability have been
-                        outstanding, and his attention to detail is remarkable.
-                      </p>
-                      <div class="profile d-flex align-items-center">
-                        <img
-                          src="assets/img/person/person-m-7.webp"
-                          class="profile-img"
-                          alt=""
-                        />
-                        <div class="profile-info">
-                          <h3>Ahmad Santoso</h3>
-                          <span>CTO at TechCorp</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 d-none d-lg-block">
-                      <div class="featured-img-wrapper">
-                        <img
-                          src="assets/img/person/person-m-7.webp"
-                          class="featured-img"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Testimonial Item -->
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <div class="row">
-                    <div class="col-lg-8">
-                      <h2>Great Problem Solver</h2>
-                      <p>
-                        Working with Muhammad was a pleasure. He quickly
-                        understood our complex requirements and developed an
-                        efficient API solution using Golang.
-                      </p>
-                      <p>
-                        His ability to optimize database queries significantly
-                        improved our system's performance.
-                      </p>
-                      <div class="profile d-flex align-items-center">
-                        <img
-                          src="assets/img/person/person-f-8.webp"
-                          class="profile-img"
-                          alt=""
-                        />
-                        <div class="profile-info">
-                          <h3>Ratna Dewi</h3>
-                          <span>Product Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 d-none d-lg-block">
-                      <div class="featured-img-wrapper">
-                        <img
-                          src="assets/img/person/person-f-8.webp"
-                          class="featured-img"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Testimonial Item -->
-            </div>
-            <div
-              class="swiper-navigation w-100 d-flex align-items-center justify-content-center"
-            >
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       <!-- /Testimonials Section -->
       <!-- Services Section -->
       <section id="services" class="services section">
@@ -1184,23 +1156,7 @@
             <span>All Rights Reserved</span>
           </p>
         </div>
-        <div class="social-links d-flex justify-content-center">
-          <a href="https://twitter.com/yourprofile"
-            ><i class="bi bi-twitter-x"></i
-          ></a>
-          <a href="https://facebook.com/yourprofile"
-            ><i class="bi bi-facebook"></i
-          ></a>
-          <a href="https://instagram.com/yourprofile"
-            ><i class="bi bi-instagram"></i
-          ></a>
-          <a href="https://linkedin.com/in/yourprofile"
-            ><i class="bi bi-linkedin"></i
-          ></a>
-        </div>
-        <!-- <div class="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div> -->
+       
       </div>
     </footer>
     <!-- Scroll Top -->
