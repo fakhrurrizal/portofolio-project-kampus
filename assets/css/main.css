@@ -175,6 +175,8 @@ h6 {
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(232, 117, 50, 0.1);
+  margin: 0 15px;
+  min-height: 300px;
 }
 
 body.dark-mode .skill-box {
@@ -237,26 +239,6 @@ body.dark-mode .skill-box:hover {
   font-weight: bold;
 }
 
-.skills-animation .col-md-6 {
-  margin-bottom: 30px;
-}
-
-@media (max-width: 768px) {
-  .skill-box {
-      padding: 25px 20px;
-  }
-  
-  .skill-box h3 {
-      font-size: 1.2rem;
-  }
-  
-  .skill-icon {
-      width: 50px;
-      height: 50px;
-      font-size: 20px;
-  }
-}
-
 .section-title {
   text-align: center;
   margin-bottom: 60px;
@@ -290,6 +272,119 @@ body.dark-mode .skill-box:hover {
   margin: 0 auto;
 }
 
+/* Slider Styles */
+.skills-slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 -15px;
+  user-select: none;
+}
+
+.skills-track {
+  display: flex;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  gap: 0;
+  will-change: transform;
+}
+
+.skill-slide {
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+.swipe-indicator {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--default-color);
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.swipe-indicator::before {
+  content: '← ';
+  margin-right: 5px;
+}
+
+.swipe-indicator::after {
+  content: ' →';
+  margin-left: 5px;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(232, 117, 50, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: var(--nav-hover-color);
+  transform: scale(1.2);
+}
+
+/* Dark mode toggle */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, var(--nav-hover-color) 0%, #f97316 100%);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  z-index: 1000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skill-slide {
+      width: 280px;
+  }
+  
+  .skill-box {
+      padding: 25px 20px;
+      margin: 0 10px;
+  }
+  
+  .skill-box h3 {
+      font-size: 1.2rem;
+  }
+  
+  .skill-icon {
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+  }
+
+  .section-title h2 {
+      font-size: 2rem;
+  }
+  
+  .swipe-indicator {
+      font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-slide {
+      width: 250px;
+  }
+  
+  .skills-slider {
+      margin: 0 -10px;
+  }
+}
 
 /* PHP Email Form Messages
 ------------------------------*/
