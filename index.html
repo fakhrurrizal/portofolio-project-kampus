@@ -92,10 +92,17 @@
               </p>
               
 
-              <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-                <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-outline">Let's Connect</a>
-              </div>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+              <a href="#portfolio" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-outline">Let's Connect</a>
+              <a href="https://drive.google.com/file/d/1pAlvDy7OC3x64SmlS4bvaBLsrD1L9nfD/view?usp=sharing" 
+                class="btn btn-info" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Download CV
+              </a>
+            </div>
+
               <div class="hero-socials" data-aos="fade-up" data-aos-delay="400">
                 <a
                   href="https://github.com/fakhrurrizal"
@@ -204,13 +211,16 @@
                     <div class="col-6">
                       <div class="info-item">
                         <span class="label">Phone</span>
-                        <span class="value">+62 851-8326-6453</span>
+                       <span class="value">
+                        <a href="https://wa.me/6285183266453" target="_blank">+62 851-8326-6453</a>
+                      </span>
+
                       </div>
                     </div>
                     <div class="col-6">
                       <div class="info-item">
                         <span class="label">Age</span>
-                        <span class="value">21 Years</span>
+                        <span class="value" id="age"></span>
                       </div>
                     </div>
                     <div class="col-6">
@@ -255,104 +265,123 @@
             </div>
             
             <div class="skills-slider">
-                <div class="skills-track" id="skillsTrack">
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">N</div>
-                            <h3>Next.js</h3>
-                            <p>Building server-side rendered React applications with excellent performance and SEO optimization</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">TS</div>
-                            <h3>TypeScript</h3>
-                            <p>Developing type-safe applications with enhanced developer experience and better code maintainability</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">Go</div>
-                            <h3>Golang</h3>
-                            <p>Creating efficient backend services and APIs with Go programming language for high-performance applications</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">Fl</div>
-                            <h3>Flutter</h3>
-                            <p>Developing cross-platform mobile applications with beautiful UIs and native performance</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">L</div>
-                            <h3>Laravel</h3>
-                            <p>Building robust PHP web applications with elegant syntax and powerful features</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">PG</div>
-                            <h3>PostgreSQL</h3>
-                            <p>Managing relational databases with advanced SQL queries and data optimization</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">TW</div>
-                            <h3>Tailwind CSS</h3>
-                            <p>Rapid UI development with utility-first CSS framework for modern responsive designs</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">R</div>
-                            <h3>React</h3>
-                            <p>Creating dynamic user interfaces with component-based architecture and state management</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">N</div>
-                            <h3>Node.js</h3>
-                            <p>Server-side JavaScript development for scalable backend applications and APIs</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">M</div>
-                            <h3>MongoDB</h3>
-                            <p>NoSQL database management for flexible document-based data storage solutions</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">D</div>
-                            <h3>Docker</h3>
-                            <p>Containerization and deployment automation for consistent development environments</p>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-slide">
-                        <div class="skill-box">
-                            <div class="skill-icon">G</div>
-                            <h3>Git</h3>
-                            <p>Version control and collaborative development with efficient branching and merging strategies</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="skills-track" id="skillsTrack">
+          
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">N</div>
+              <h3>Next.js</h3>
+              <p>Building scalable React-based web applications with server-side rendering and SEO optimization</p>
             </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">TS</div>
+              <h3>TypeScript</h3>
+              <p>Developing type-safe and maintainable applications with improved developer experience</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">Go</div>
+              <h3>Golang (Echo)</h3>
+              <p>Building efficient backend services and APIs with Golang and Echo framework</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">Fl</div>
+              <h3>Flutter</h3>
+              <p>Developing cross-platform mobile applications with Dart and Flutter</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">L</div>
+              <h3>Laravel</h3>
+              <p>Building robust PHP web applications with clean architecture</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">PG</div>
+              <h3>PostgreSQL</h3>
+              <p>Designing and managing relational databases with optimized SQL queries</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">MY</div>
+              <h3>MySQL</h3>
+              <p>Managing structured data and implementing reliable database solutions</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">TW</div>
+              <h3>Tailwind CSS</h3>
+              <p>Building modern and responsive UIs with utility-first CSS framework</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">R</div>
+              <h3>React</h3>
+              <p>Creating dynamic and modular UI with component-based architecture</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">N</div>
+              <h3>Node.js</h3>
+              <p>Building scalable server-side applications with JavaScript runtime</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">D</div>
+              <h3>Docker</h3>
+              <p>Containerization and deployment automation for consistent environments</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">G</div>
+              <h3>Git</h3>
+              <p>Version control and collaborative development with branching strategies</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">MUI</div>
+              <h3>Material UI</h3>
+              <p>Implementing modern UI components for React with responsive design</p>
+            </div>
+          </div>
+
+          <div class="skill-slide">
+            <div class="skill-box">
+              <div class="skill-icon">AX</div>
+              <h3>Axios & Tanstack Query</h3>
+              <p>Data fetching and state management for React applications</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
         
             <div class="slider-dots" id="sliderDots"></div>
         </div>
@@ -383,120 +412,103 @@
             <div class="col-12">
               <div class="resume-wrapper">
                 <div class="resume-block" data-aos="fade-up">
-                  <h2>Work Experience</h2>
-                  <p class="lead">
-                    Developing robust web and mobile applications for various
-                    industries
-                  </p>
-                  <div class="timeline">
-                    <div
-                      class="timeline-item"
-                      data-aos="fade-up"
-                      data-aos-delay="200"
-                    >
-                      <div class="timeline-left">
-                       <a href="https://nizom.id/" target="_blank" rel="noopener noreferrer">
-                        <h4 class="company">
-                          PT. Nizom Berkah Informasi - West Jakarta
-                        </h4>
-                       </a>
-                        <span class="period">March, 2024 - Current</span>
-                      </div>
-                      <div class="timeline-dot"></div>
-                      <div class="timeline-right">
-                        <h3 class="position">Fullstack Developer</h3>
-                        <p class="description">
-                          Developing enterprise-level applications and mobile
-                          solutions
-                        </p>
-                        <ul>
-                          <li>
-                            Designed and implemented RESTful APIs using Golang
-                          </li>
-                          <li>
-                            Developed cross-platform mobile applications with
-                            Flutter
-                          </li>
-                          <li>
-                            Optimized database queries for Postgres databases
-                          </li>
-                          <li>
-                            Implemented responsive UI components with
-                            @mui/material and Tailwind
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div
-                      class="timeline-item"
-                      data-aos="fade-up"
-                      data-aos-delay="300"
-                    >
-                      <div class="timeline-left">
-                        <a href="https://mdmedia.co.id/" target="_blank" rel="noopener noreferrer">
-                          <h4 class="company">
-                            PT. Metra Digital Media - South Jakarta
-                          </h4>
-                        </a>
-                      
-                        <span class="period">March,2023 - March, 2024</span>
-                      </div>
-                      <div class="timeline-dot"></div>
-                      <div class="timeline-right">
-                        <h3 class="position">Fullstack Developer</h3>
-                        <p class="description">
-                          Leading development of web applications using Next.js,
-                          TypeScript, and Golang with Postgres database
-                        </p>
+                <h2>Work Experience</h2>
+                <p class="lead">
+                  Developing scalable web and mobile applications across various industries
+                </p>
+                <div class="timeline">
 
-                        <p></p>
-                      </div>
+                  <!-- PT Nizom -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <a href="https://nizom.id/" target="_blank" rel="noopener noreferrer">
+                        <h4 class="company">PT. Nizom Berkah Informasi - West Jakarta</h4>
+                      </a>
+                      <span class="period">Mar 2024 – Jun 2025</span>
                     </div>
-                    <div
-                      class="timeline-item"
-                      data-aos="fade-up"
-                      data-aos-delay="400"
-                    >
-                      <div class="timeline-left">
-                        <a href="https://can.co.id" target="_blank" rel="noopener noreferrer">
-                          <h4 class="company">
-                            CAN Creative PT. Cipta Adi Nugraha - Semarang
-                          </h4>
-                        </a>
-                        <span class="period">Feb 2020 - April 2020</span>
-                      </div>
-                      <div class="timeline-dot"></div>
-                      <div class="timeline-right">
-                        <h3 class="position">
-                          Junior Frontend Web Developer (Intern)
-                        </h3>
-                        <p class="description">
-                          Gained hands-on experience in frontend web development
-                          and collaborated with the team to deliver client
-                          projects.
-                        </p>
-                        <ul>
-                          <li>
-                            Assisted in building responsive web interfaces using
-                            HTML, CSS, and JavaScript.
-                          </li>
-                          <li>
-                            Worked on implementing UI components and ensuring
-                            cross-browser compatibility.
-                          </li>
-                          <li>
-                            Collaborated with senior developers to integrate
-                            frontend code with backend APIs.
-                          </li>
-                          <li>
-                            Participated in code reviews and contributed to
-                            improving code quality and maintainability.
-                          </li>
-                        </ul>
-                      </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Frontend Developer</h3>
+                      <p class="description">
+                        Building and maintaining enterprise-level POS web and mobile applications.
+                      </p>
+                      <ul>
+                        <li>Developed a complete POS (Point of Sale) web application from scratch in collaboration with a cross-functional team.</li>
+                        <li>Wrote clean, modular, and reusable code for maintainability and easier team collaboration.</li>
+                        <li>Implemented responsive UI using React and Material UI for optimal UX across devices.</li>
+                        <li>Built a companion mobile version of the POS application using Flutter for Android.</li>
+                      </ul>
                     </div>
                   </div>
+
+                  <!-- PT MD Media -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-left">
+                      <a href="https://mdmedia.co.id/" target="_blank" rel="noopener noreferrer">
+                        <h4 class="company">PT. Metra Digital Media (Telkom Group) - Jakarta</h4>
+                      </a>
+                      <span class="period">Mar 2023 – Mar 2024</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Frontend Developer</h3>
+                      <p class="description">
+                        Developed data-driven web applications for audience insights and advertising.
+                      </p>
+                      <ul>
+                        <li>Developed a web-based GIS application to analyze audience data across Indonesia.</li>
+                        <li>Built a Super App consisting of multiple integrated sub-apps for audience insights and decision-making.</li>
+                        <li>Created and integrated an advertising tool with third-party platforms for real-time campaign deployment and measurement.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- DumbWays Bootcamp -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="350">
+                    <div class="timeline-left">
+                      <a href="https://dumbways.id/" target="_blank" rel="noopener noreferrer">
+                        <h4 class="company">PT. DumbWays Indonesia Teknologi - South Tangerang</h4>
+                      </a>
+                      <span class="period">Oct 2022 – Jan 2023</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Fullstack Developer Bootcamp</h3>
+                      <p class="description">
+                        Intensive training in fullstack development focusing on modern frameworks and industry practices.
+                      </p>
+                      <ul>
+                        <li>Developed <strong>WaysBook</strong> and <strong>WaysBucks</strong> projects using Vite.js Framework.</li>
+                        <li>Strengthened expertise in React.js, Node.js, MySQL, and Golang for scalable applications.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- CAN Creative -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-left">
+                      <a href="https://can.co.id/" target="_blank" rel="noopener noreferrer">
+                        <h4 class="company">CAN Creative (PT. Cipta Adi Nugraha) - Semarang</h4>
+                      </a>
+                      <span class="period">Feb 2020 – Apr 2020</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Frontend Developer Intern</h3>
+                      <p class="description">
+                        Contributed to client-based web projects by maintaining and updating websites using WordPress.
+                      </p>
+                      <ul>
+                        <li>Maintained and updated websites with WordPress and custom frontend components.</li>
+                        <li>Collaborated with the development team to ensure smooth implementation and functionality.</li>
+                        <li>Gained valuable hands-on experience in frontend development within a professional setting.</li>
+                      </ul>
+                    </div>
+                  </div>
+
                 </div>
+              </div>
+
                 <div
                   class="resume-block"
                   data-aos="fade-up"
@@ -526,7 +538,7 @@
                         </p>
                       </div>
                     </div>
-                    <div
+                    <!-- <div
                       class="timeline-item"
                       data-aos="fade-up"
                       data-aos-delay="300"
@@ -566,7 +578,7 @@
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
                       <div class="timeline-left">
                           <h4 class="company">SMK Negeri 4 Kendal</h4>
@@ -847,7 +859,9 @@
                         data-gallery="portfolio-gallery-mobile"
                         ><i class="bi bi-eye"></i
                       ></a>
-                     
+                      <a href="https://play.google.com/store/apps/details?id=com.nizom.pos_laundry"  target="_blank" class="details-link"
+                          ><i class="bi bi-arrow-right"></i
+                        ></a>
                     </div>
                   </div>
                 </div>

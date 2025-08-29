@@ -349,41 +349,56 @@ body.dark-mode .skill-box:hover {
 /* Responsive */
 @media (max-width: 768px) {
   .skill-slide {
-      width: 280px;
+    width: 280px;
   }
-  
+
   .skill-box {
-      padding: 25px 20px;
-      margin: 0 10px;
+    padding: 25px 20px;
+    margin: 0 10px;
   }
-  
+
   .skill-box h3 {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
-  
+
   .skill-icon {
-      width: 50px;
-      height: 50px;
-      font-size: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
   }
 
   .section-title h2 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
-  
+
   .swipe-indicator {
-      font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 }
 
 @media (max-width: 480px) {
   .skill-slide {
-      width: 250px;
+    width: 250px;
   }
-  
+
   .skills-slider {
-      margin: 0 -10px;
+    margin: 0 -10px;
   }
+}
+
+.btn-info {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  padding: 10px 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #1e40af;
+  color: #fff;
 }
 
 /* PHP Email Form Messages
